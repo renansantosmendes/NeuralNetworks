@@ -9,8 +9,10 @@ package com.mycompany.neuralnetworks;
  *
  * @author renansantos
  */
-public class Main {
+public class NeuralNetTest {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        NeuralNet n = new NeuralNet();
+        n.initNet();
+        n.printNet();
     }
 }
